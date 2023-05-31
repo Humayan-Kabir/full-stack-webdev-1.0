@@ -1,0 +1,3 @@
+ryan dhal was thinking about running js on server side. for that reason he took chrome v8 engine and added
+some of this custom c++ code of top that. initialy programming folk didn't appreciate the idea. But 
+when npm and mongodb came it got huge popularity.

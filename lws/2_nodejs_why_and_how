@@ -1,0 +1,8 @@
+node js is nothing but runtime for js.
+chrome v8 runs on browser context which provides window and dom.
+nodejs runs on server os context.
+
+Thread/EventLoop:
+node js is single threaded and non blocking io. It is not suitable for cpu intensive task. Though it is
+single treaded it utilizes LIBUV library which works with kernel thread and provides working thread to 
+handle reqeust. response is returned via callback mechanism aka asynchronous.
