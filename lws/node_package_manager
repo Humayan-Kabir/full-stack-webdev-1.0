@@ -1,0 +1,15 @@
+npm init : create project
+npm init --yes : accept all and create project
+npm config set init-author-name "yourName" 
+npm config get init-author-name
+npm config delete init-author-name
+npm install package --save -> add in package.json
+npm install : install everything in package.json
+npm instlal --save-dev package
+npm uninstall --save-dev package
+npm revemoe --save-dev
+npm install package@1.2.3 : specific version install
+npm update package // ^ minor version, ~ patch version, * latest version, otherwise exact version
+npm install -g nodemon/liveserver
+npm root -g : root folder
+npm list --depth number
